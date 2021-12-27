@@ -1,3 +1,4 @@
+import Center from '../components/Center'
 import Sidebar from '../components/Sidebar'
 
 export default function Home() {
