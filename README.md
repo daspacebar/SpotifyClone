@@ -26,4 +26,6 @@ Tailwind CSS for time-saving and hectic frontend work. (Yes, I'm lazy), which ba
 
 ![Home Page of a Playlist](home.png)
 
+[Live preview](https://spotify-clone-daspacebar.vercel.app)
+
 Some WIP! Peace!
