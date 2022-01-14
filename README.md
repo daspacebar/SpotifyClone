@@ -28,4 +28,6 @@ Tailwind CSS for time-saving and hectic frontend work. (Yes, I'm lazy), which ba
 
 [Live preview](https://spotify-clone-daspacebar.vercel.app)
 
+Some issue with the Redirect URI, the ticket for the same has already been created in the repository. Feel free to create a PR and help me solve this issue lol. Until then this project remains deployed in an incomplete state.
+
 Some WIP! Peace!
