@@ -10,7 +10,7 @@ Have used [Recoil](https://recoiljs.org/docs/introduction/getting-started/) for 
 
 Tailwind CSS for time-saving and hectic frontend work. (Yes, I'm lazy), which basically allows you to prevent writing media queries for different screen sizes and some really cool responsiveness of every possible detail.
 
-## Project Setup?
+## Wanna try this on your system?
 
 1. Clone this Repo: `git clone https://github.com/daspacebar/SpotifyClone.git`
 
@@ -24,6 +24,6 @@ Tailwind CSS for time-saving and hectic frontend work. (Yes, I'm lazy), which ba
 
 ## Screenshots and live previews
 
-![Home Page of a Playlist](spotifyclone/Screenshot 2022-01-14 at 8.14.58 PM.png)
+![Home Page of a Playlist](home.png)
 
 Some WIP! Peace!
