@@ -1,27 +1,29 @@
-# Next.js + Tailwind CSS Example
+# Spotify Clone (kinda :P)
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.0)](https://tailwindcss.com/blog/tailwindcss-v3) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+## About the Application
 
-## Preview
+Heard of Spotify? Must have! This is a clone-kinda application same as spotify which basically retrieves data (such as playlists, songs, etc..) from the logged in user's profile using Spotify's Web API. No biggie, just something I wanted to try with Tailwind-CSS and NextJs over a few weekends.
 
-Preview the example live on [StackBlitz](http://stackblitz.com/):
+## What's different?
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+Have used [Recoil](https://recoiljs.org/docs/introduction/getting-started/) for the state and value manager instead of typical useState in react.
 
-## Deploy your own
+Tailwind CSS for time-saving and hectic frontend work. (Yes, I'm lazy), which basically allows you to prevent writing media queries for different screen sizes and some really cool responsiveness of every possible detail.
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
+## Project Setup?
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+1. Clone this Repo: `git clone https://github.com/daspacebar/SpotifyClone.git`
 
-## How to use
+2. Install packages `yarn install or npm install`
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
+3. Go to your [Spotify Developer](https://developer.spotify.com/dashboard/applications) and copy your CLIENT SECRET AND CLIENT ID to your clipboard and paste it in environment variable file.
 
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-# or
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-```
+4. Create a file `.env.local` and follow the `.env.example` for inserting keys and secrets from your spotify developer's profile.
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+5. That's it, now run the project with `yarn run dev or npm run dev`
+
+## Screenshots and live previews
+
+![Home Page of a Playlist](spotifyclone/Screenshot 2022-01-14 at 8.14.58 PM.png)
+
+Some WIP! Peace!
